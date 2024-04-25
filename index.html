@@ -11,21 +11,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!--LINK AL ÍCONO DE LA PÁGINA-->
-    <link rel="icon" type="image/png" href="/assets/img/Logo.png">
+    <link rel="icon" type="image/png" href="assets/img/Logo.png">
     <!--LINK A CSS PRINCIPALES-->
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/light-mode.css">
-    <link rel="stylesheet" href="/assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/light-mode.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
     <!--LINK A CSS ESPECÍFICO-->
-    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <!--CONEXIÓN CON LOS SCRIPTS-->
-    <script src="/assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </head>
 <body>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg border-bottom navbar1 light-mode">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="/assets/img/Logo.png" alt=""> ActiveX</a>
+          <a class="navbar-brand" href="index.html"><img src="assets/img/Logo.png" alt=""> ActiveX</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -40,13 +40,13 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link nav-link-hover" href="rutinas.html">Rutinas</a>
+                <a class="nav-link nav-link-hover" href="/views/rutinas.html">Rutinas</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled" href="#">Dietas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Objetivos</a>
+                <a class="nav-link" href="/views/objetivos.html">Objetivos</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -62,9 +62,9 @@
               </li>
             </ul>
             <div class="sesionBtns">
-                <a class="btn btnSignIn mx-3" id="btnUno"  href="login.html" role="button" rel="noreferrer">Sign in</a>
+                <a class="btn btnSignIn mx-3" id="btnUno"  href="/views/login.html" role="button" rel="noreferrer">Sign in</a>
                 <button class="btnSignUp px-3 py-2" type="submit">Sign up</button>
-                <button onclick="modoOscuro()" class="btn btnTemaOscuro"><img class="imgLuna" src="/assets/img/moon.png" alt=""></button>
+                <button onclick="modoOscuro()" class="btn btnTemaOscuro"><img class="imgLuna" src="assets/img/moon.png" alt=""></button>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@
     <!--PRESENTACIÓN-->
         <div class="container-fluid containerPresentacion row justify-content-center" id="containerPresentacion">
             <div class="col-xl-7 col-md-6 col-sm-3  colSaly">
-                <img class="saly1" src="/assets/img/saly1.png" alt="">
+                <img class="saly1" src="assets/img/saly1.png" alt="">
             </div>
             <div class="col-xl-5 col-md-8 col-sm-12 colPresentacion">
              <p class="presentacion"><b><span class="primerPalabra">Tus</span> rutinas.</b></p>
@@ -96,23 +96,23 @@
 
     <!--CARACTERÍSTICAS-->
             <div class="container-fluid containerComienza">
-                <img src="/assets/img/Circle.png" class="circulos" style="position: absolute;margin-left: -15px;margin-top: 10px;" alt="">
-                <img src="/assets/img/Vector.png" style="position: absolute;margin: 50px 10% auto;" alt="">
-                <img src="/assets/img/Vector.png" style="position: absolute;margin: 250px 40% auto;" alt="">
-                <img src="/assets/img/Vector.png" style="position: absolute;margin: 100px 88% auto;" alt="">
+                <img src="assets/img/Circle.png" class="circulos" style="position: absolute;margin-left: -15px;margin-top: 10px;" alt="">
+                <img src="assets/img/Vector.png" style="position: absolute;margin: 50px 10% auto;" alt="">
+                <img src="assets/img/Vector.png" style="position: absolute;margin: 250px 40% auto;" alt="">
+                <img src="assets/img/Vector.png" style="position: absolute;margin: 100px 88% auto;" alt="">
                 <h5 class="pt-5 pb-5 text-center">Comienza a utilizar ActiveX</h5>
                 <div class="containerVentajas container" >
                     
                     <div class="col-xl col-sm col-md-3 contImg">
-                        <img class="v" src="/assets/img/v1.png">
+                        <img class="v" src="assets/img/v1.png">
                         <p class="mt-3 titVentajas">Entrenadores <br><span class="subtitVentajas">certificados</span></p>
                     </div>
                     <div class="col-xl col-sm col-md-3 contImg">
-                        <img class="v" src="/assets/img/v2.png">
+                        <img class="v" src="assets/img/v2.png">
                         <p class="mt-3 titVentajas">Seguimiento <br><span class="subtitVentajas">de objetivos</span></p>
                     </div>
                     <div class="col-xl col-sm col-md-3 contImg">
-                        <img class="v" src="/assets/img/v3.png">
+                        <img class="v" src="assets/img/v3.png">
                         <p class="mt-3 titVentajas">Seguimiento <br><span class="subtitVentajas">de objetivos</span></p>
                     </div>
                 </div>
@@ -122,12 +122,12 @@
             <div class="container-fluid containerPorque">
                 <h3 class="pt-5 pb-5 text-center text-white">¿Por qué utilizar ActiveX?</h3>
                 <div class="row">
-                    <div class="col text-center"><img class="saly15" src="/assets/img/Saly-15.png" alt="">
+                    <div class="col text-center"><img class="saly15" src="assets/img/Saly-15.png" alt="">
                     </div>
                     <div class="col-xl col-sm-12 text-center colInfo1">
-                        <div class="infoPorque"><img src="/assets/img/Frame 4873.png" class="img" alt=""><p class="text-white pInfoPorque">Planes de dieta y rutinas de ejercicio personalizadas.</p></div>
-                        <div class="infoPorque"><img src="/assets/img/Frame 4874.png" class="img" alt=""><p class="text-white  pInfoPorque">ActiveX te acompaña a donde sea que vayas. Siempre a tu alcance</p></div>
-                        <div class="infoPorque"><img src="/assets/img/Frame 4875.png" class="img" alt=""><p class="text-white  pInfoPorque">Seguimiento detallado de tus objetivos.</p></div>
+                        <div class="infoPorque"><img src="assets/img/Frame 4873.png" class="img" alt=""><p class="text-white pInfoPorque">Planes de dieta y rutinas de ejercicio personalizadas.</p></div>
+                        <div class="infoPorque"><img src="assets/img/Frame 4874.png" class="img" alt=""><p class="text-white  pInfoPorque">ActiveX te acompaña a donde sea que vayas. Siempre a tu alcance</p></div>
+                        <div class="infoPorque"><img src="assets/img/Frame 4875.png" class="img" alt=""><p class="text-white  pInfoPorque">Seguimiento detallado de tus objetivos.</p></div>
                     </div>
                 </div>
             </div>
@@ -136,10 +136,10 @@
             <div class="container-fluid containerServicios">
                 <h3 class="pt-5 pb-5 text-center text-white">Servicios</h3>
                 <div class="row g-5" style="width: 80%;margin: auto;">
-                        <div class="col "><img src="/assets/img/Frame 4873.png" class="img" alt=""><p ">Planes de dieta y rutinas de ejercicio personalizadas.</p></div>
-                        <div class="col "><img src="/assets/img/Frame 4874.png" class="img" alt=""><p >ActiveX te acompaña a donde sea que vayas. Siempre a tu alcance</p></div>
-                        <div class="col "><img src="/assets/img/Frame 4875.png" class="img" alt=""><p >Seguimiento detallado de tus objetivos.</p></div>
-                        <div class="col "><img src="/assets/img/Frame 4875.png" class="img" alt=""><p>Seguimiento detallado de tus objetivos.</p></div>
+                        <div class="col "><img src="assets/img/Frame 4873.png" class="img" alt=""><p ">Planes de dieta y rutinas de ejercicio personalizadas.</p></div>
+                        <div class="col "><img src="assets/img/Frame 4874.png" class="img" alt=""><p >ActiveX te acompaña a donde sea que vayas. Siempre a tu alcance</p></div>
+                        <div class="col "><img src="assets/img/Frame 4875.png" class="img" alt=""><p >Seguimiento detallado de tus objetivos.</p></div>
+                        <div class="col "><img src="assets/img/Frame 4875.png" class="img" alt=""><p>Seguimiento detallado de tus objetivos.</p></div>
                     </div>
                 </div>
             </div>
